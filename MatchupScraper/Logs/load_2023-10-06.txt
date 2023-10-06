@@ -1,0 +1,15 @@
+Starting matchup scraper...
+Established connection to url successfully!
+Connection to server established!
+Cursor created successfully!
+Processed table successfully!
+Table cleared successfully!
+Inserted value: (1, 'Carolina', 'Nashville', datetime.datetime(2023, 10, 6, 13, 37, 33, 458395))
+Inserted value: (2, 'N.Y. Islanders', 'New Jersey', datetime.datetime(2023, 10, 6, 13, 37, 33, 458395))
+Inserted value: (3, 'Buffalo', 'Pittsburgh', datetime.datetime(2023, 10, 6, 13, 37, 33, 458395))
+Inserted value: (4, 'Edmonton', 'Seattle', datetime.datetime(2023, 10, 6, 13, 37, 33, 458395))
+Inserted value: (5, 'Vancouver', 'Calgary', datetime.datetime(2023, 10, 6, 13, 37, 33, 458395))
+All Matchups inserted!
+Cursor closed successfully!
+Connection to server closed successfully!
+Process completed successfully!

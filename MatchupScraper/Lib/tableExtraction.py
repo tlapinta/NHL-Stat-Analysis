@@ -1,7 +1,7 @@
 from datetime import *
 from bs4 import *
 
-def extractTableData(table):
+def extractTableData(table, filename):
         if table:
             try:
                 data = []
@@ -24,7 +24,9 @@ def extractTableData(table):
                 return data
             except Exception as e:
                 print(f"Error extracting HTML data from table. Error: {e}")
+                filename.write('Error extracting HTML data from table. Error: ' + str(e))
                 return -1
         else: 
             print("Error table object does not exist.")
+            filename.write('Error table object does not exist.\n')
             return -1
