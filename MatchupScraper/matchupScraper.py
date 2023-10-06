@@ -1,9 +1,9 @@
 import requests
 from bs4 import *
-from lib.getDate import *
-from lib.tableExtraction import *
-from lib.dbConnect import *
-from lib.loadMatchups import loadMatchups
+from Lib.getDate import *
+from Lib.tableExtraction import *
+from Lib.dbConnect import *
+from Lib.loadMatchups import loadMatchups
 
 def matchupScraper(file):
     #Sends a get request to the server and records the response
