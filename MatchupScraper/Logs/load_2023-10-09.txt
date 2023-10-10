@@ -1,0 +1,5 @@
+Starting matchup scraper...
+Established connection to url successfully!
+Error table object does not exist.
+Terminating without loading matchups. Function: extractTableData failed.
+Process completed with errors.
