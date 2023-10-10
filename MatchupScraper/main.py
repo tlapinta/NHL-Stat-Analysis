@@ -33,11 +33,6 @@ def main():
     email_port = os.getenv('email_port')
     email_receiver = os.getenv('email_receiver')
 
-    print(email_sender)
-    print(email_password)
-    print(email_port)
-    print(email_receiver)
-
     #Connects to the SFTP server
     server = smtplib.SMTP('smtp.gmail.com', email_port)
     server.starttls()
